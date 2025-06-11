@@ -72,7 +72,7 @@ export const DottedLine: React.FC = () => {
 
   return (
     <>
-      <h1>Brettekant</h1>
+      <h1>Dotted edge</h1>
       <div className="side-by-side">
         <div className="column">
           <canvas ref={canvasRef} width="600" height="400"></canvas>

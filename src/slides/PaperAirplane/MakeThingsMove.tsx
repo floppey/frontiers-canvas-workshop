@@ -1,7 +1,7 @@
 export const MakeThingsMove: React.FC = () => {
   return (
     <>
-      <h1>Steg 2: Få ting til å bevege seg</h1>
+      <h1>Step 2: Make things move</h1>
     </>
   );
 };

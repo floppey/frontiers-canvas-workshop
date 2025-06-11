@@ -292,7 +292,7 @@ export const Monsters: React.FC = () => {
 
   return (
     <>
-      <h1>Monster</h1>
+      <h1>Monsters</h1>
       <div className="side-by-side">
         <div className="column">
           <canvas ref={canvasRef} width="600" height="400"></canvas>

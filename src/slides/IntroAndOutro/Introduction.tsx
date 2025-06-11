@@ -1,11 +1,11 @@
 export const Introduction: React.FC = () => {
   return (
     <>
-      <h1>Papirfly</h1>
+      <h1>Paper airplane</h1>
       <ul>
-        <li>Gutter på 3 og 6 år krever papirfly av ypperste kvalitet</li>
-        <li>Papirfly er vanskelig</li>
-        <li>Dokumentasjon på internett er dårlig</li>
+        <li>Boys aged 3 and 6 demand paper airplanes of the highest quality</li>
+        <li>Paper airplanes are difficult</li>
+        <li>Documentation on the internet is poor</li>
       </ul>
     </>
   );

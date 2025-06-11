@@ -94,7 +94,7 @@ export const FoldPaper: React.FC = () => {
 
   return (
     <>
-      <h1>Første brett</h1>
+      <h1>First fold</h1>
       <div className="side-by-side">
         <div className="column">
           <canvas ref={canvasRef} width="600" height="600"></canvas>

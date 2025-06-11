@@ -3,7 +3,7 @@ import { Code } from "../../components/Code";
 export const Platforms: React.FC = () => {
   return (
     <>
-      <h1>Ingen plattformspill uten plattformer</h1>
+      <h1>No platformer without platforms</h1>
       <div className="side-by-side">
         <div className="column">
           <Code

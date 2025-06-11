@@ -1,9 +1,11 @@
 export const FirstPage: React.FC = () => {
   return (
     <>
-      <h1>Hvordan et papirfly ble til et plattformspill</h1>
+      <h1>How a paper airplane became a platform game</h1>
 
-      <p>En reise i verden av HTML Canvas med Johannes Grimstad Giske</p>
+      <p>
+        A journey into the world of HTML Canvas with Johannes Grimstad Giske
+      </p>
     </>
   );
 };
