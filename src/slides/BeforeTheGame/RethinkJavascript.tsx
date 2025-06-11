@@ -1,10 +1,8 @@
 export const RethinkJavascript: React.FC = () => {
   return (
     <>
-      <h1>Bruk JavaScript på en annen måte</h1>
-      <p>
-        JavaScript for spill er ikke det samme som JavaScript for nettsider.
-      </p>
+      <h1>Look at JavaScript in a new way</h1>
+      <p>JavaScript for games is not the same as JavaScript for websites.</p>
     </>
   );
 };

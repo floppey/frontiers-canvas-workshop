@@ -57,7 +57,7 @@ class Player {
     this.velocityY = -10;
   }
 
-  // PS! player.y is the bottom of the player while platform.y is the top of the platform
+  // Note! player.y is the bottom of the player while platform.y is the top of the platform
   isOnPlatform(platform: Platform) {
     // Snap to platform if player partly inside platform
     const tolerance = 10;
@@ -211,7 +211,7 @@ export const AddCollisionDetectionToGame: React.FC = () => {
 class Player {
   ...
 
-  // PS! player.y is the bottom of the player while platform.y is the top of the platform
+  // Note! player.y is the bottom of the player while platform.y is the top of the platform
   isOnPlatform(platform: Platform) {
     // Snap to platform if player partly inside platform
     const tolerance = 10;

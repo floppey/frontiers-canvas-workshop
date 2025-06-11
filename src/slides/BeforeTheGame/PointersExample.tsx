@@ -3,7 +3,7 @@ import { Code } from "../../components/Code";
 export const PointersExample: React.FC = () => {
   return (
     <>
-      <h1>Eksempel</h1>
+      <h1>Example</h1>
       <div className="side-by-side">
         <div className="column">
           <Code

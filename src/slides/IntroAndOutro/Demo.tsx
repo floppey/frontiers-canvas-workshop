@@ -1,7 +1,7 @@
 export const Demo: React.FC = () => {
   return (
     <>
-      <h1>Demotid!</h1>
+      <h1>Demo time!</h1>
 
       <ul>
         {[

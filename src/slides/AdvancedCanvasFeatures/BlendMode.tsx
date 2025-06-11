@@ -63,7 +63,7 @@ export const BlendMode: React.FC<SlideProps> = ({ subStep }) => {
 
   return (
     <>
-      <h1>Farger og gjennomsiktighet</h1>
+      <h1>Colors and transparency</h1>
       <div className="side-by-side">
         <div className="column">
           <canvas ref={canvasRef} width="400" height="400"></canvas>

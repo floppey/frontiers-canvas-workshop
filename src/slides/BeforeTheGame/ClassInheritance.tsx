@@ -3,7 +3,7 @@ import { Code } from "../../components/Code";
 export const ClassInhericance: React.FC = () => {
   return (
     <>
-      <h1>Arv</h1>
+      <h1>Inheritance</h1>
       <div className="side-by-side">
         <div className="column">
           <Code

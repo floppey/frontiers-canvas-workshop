@@ -4,6 +4,10 @@ export const Unit: React.FC = () => {
   return (
     <>
       <h1>Unit</h1>
+      <p>
+        Before we create monsters, let's move most of the Player code into a
+        more generic class.
+      </p>
       <div className="side-by-side">
         <div className="column">
           <Code

@@ -1,10 +1,10 @@
 export const LetsBuildAGame: React.FC = () => {
   return (
     <>
-      <h1>Hvor begynner vi?</h1>
+      <h1>Where do we begin?</h1>
       <ul>
-        <li>JavaScript klasser</li>
-        <li>Pekere</li>
+        <li>JavaScript classes</li>
+        <li>Pointers</li>
       </ul>
     </>
   );
