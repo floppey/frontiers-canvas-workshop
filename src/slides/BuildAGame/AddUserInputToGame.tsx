@@ -119,7 +119,7 @@ export const AddUserInputToGame: React.FC = () => {
 
   return (
     <>
-      <h1>Add user input to the game</h1>
+      <h1>Legg til brukerinput i spillet</h1>
       <div className="side-by-side">
         <div className="column">
           <canvas ref={canvasRef} width="600" height="400"></canvas>

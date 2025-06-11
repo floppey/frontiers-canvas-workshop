@@ -94,7 +94,7 @@ export const FoldPaper: React.FC = () => {
 
   return (
     <>
-      <h1>First fold</h1>
+      <h1>Første brett</h1>
       <div className="side-by-side">
         <div className="column">
           <canvas ref={canvasRef} width="600" height="600"></canvas>
@@ -106,6 +106,7 @@ export const FoldPaper: React.FC = () => {
 const drawFold = async () => {
 // ...
 
+const progress = Math.min(1, frame / 400);
 const angle = -Math.PI * progress;
 
 ctx.fillStyle = progress < 0.5 ? "white" : "lightgrey";

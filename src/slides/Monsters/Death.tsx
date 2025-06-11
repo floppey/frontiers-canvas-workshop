@@ -394,7 +394,7 @@ export const Death: React.FC = () => {
 
   return (
     <>
-      <h1>Death 💀</h1>
+      <h1>Død 💀</h1>
       <div className="side-by-side">
         <div className="column">
           <canvas ref={canvasRef} width="600" height="400"></canvas>

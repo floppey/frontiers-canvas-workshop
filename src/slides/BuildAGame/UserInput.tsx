@@ -3,7 +3,7 @@ import { Code } from "../../components/Code";
 export const UserInput: React.FC = () => {
   return (
     <>
-      <h1>User input</h1>
+      <h1>Brukerinput</h1>
       <div className="side-by-side">
         <div className="column">
           <Code

@@ -312,7 +312,7 @@ export const KillMonster: React.FC = () => {
 
   return (
     <>
-      <h1>Kill monster</h1>
+      <h1>Drepe monster</h1>
       <div className="side-by-side">
         <div className="column">
           <canvas ref={canvasRef} width="600" height="400"></canvas>

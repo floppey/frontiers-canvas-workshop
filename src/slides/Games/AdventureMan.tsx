@@ -1,10 +1,10 @@
 export const AdventureMan: React.FC = () => {
   return (
     <>
-      <h1>And another game</h1>
+      <h1>Adventure Man 🏹</h1>
       <iframe
         src="https://adventureman.nat20.no/"
-        style={{ width: "1200px", height: "600px" }}
+        style={{ width: "1500px", height: "700px" }}
       ></iframe>
     </>
   );

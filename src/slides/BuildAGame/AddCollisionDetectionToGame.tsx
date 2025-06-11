@@ -200,7 +200,7 @@ export const AddCollisionDetectionToGame: React.FC = () => {
 
   return (
     <>
-      <h1>Add collision detection to the game</h1>
+      <h1>Kollisjonsdetektering</h1>
       <div className="side-by-side">
         <div className="column">
           <canvas ref={canvasRef} width="600" height="400"></canvas>

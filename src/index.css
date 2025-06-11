@@ -113,3 +113,9 @@ canvas {
   flex-direction: column;
   justify-content: center;
 }
+
+img {
+  max-width: min(50vw, 100%);
+  height: auto;
+  margin: 0 auto;
+}

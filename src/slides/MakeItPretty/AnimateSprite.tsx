@@ -56,7 +56,7 @@ export const AnimateSprite: React.FC = () => {
 
   return (
     <>
-      <h1>Animation</h1>
+      <h1>Animasjon</h1>
       <div className="side-by-side">
         <div className="column">
           <canvas ref={canvasRef} width="600" height="400"></canvas>

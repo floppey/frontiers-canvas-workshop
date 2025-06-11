@@ -3,7 +3,7 @@ import { Code } from "../../components/Code";
 export const CreateAGameClass: React.FC = () => {
   return (
     <>
-      <h1>Create a game class</h1>
+      <h1>Game class</h1>
       <div className="side-by-side">
         <div className="column">
           <Code

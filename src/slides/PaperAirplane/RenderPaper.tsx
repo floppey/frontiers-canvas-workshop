@@ -38,7 +38,7 @@ export const RenderPaper: React.FC = () => {
 
   return (
     <>
-      <h1>Step 1: Draw an A4 sheet</h1>
+      <h1>Steg 1: Tegne et A4-ark</h1>
       <div className="side-by-side">
         <div className="column">
           <canvas ref={canvasRef} width="400" height="400"></canvas>

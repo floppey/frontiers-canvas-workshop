@@ -1,11 +1,11 @@
 export const AboutMe: React.FC = () => {
   return (
     <>
-      <h1>A little about me</h1>
+      <h1>Kort om meg</h1>
       <ul>
-        <li>35 years old and living in Søreide</li>
-        <li>Married and father of two boys aged 3 and 6</li>
-        <li>Gamer and developer, but have never made a game before</li>
+        <li>Pappa til to gutter på 3 og 6 år</li>
+        <li>Helt OK til å brette papirfly</li>
+        <li>Gamer og utvikler, men har aldri laget spill før</li>
       </ul>
     </>
   );
