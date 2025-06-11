@@ -3,7 +3,7 @@ import { Code } from "../../components/Code";
 export const Physics: React.FC = () => {
   return (
     <>
-      <h1>Fysikk</h1>
+      <h1>Physics</h1>
       <div className="side-by-side">
         <div className="column">
           <Code

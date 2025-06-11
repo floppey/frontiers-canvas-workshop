@@ -3,7 +3,7 @@ import { Code } from "../../components/Code";
 export const CreateAPlayer: React.FC = () => {
   return (
     <>
-      <h1>Lag en Player class</h1>
+      <h1>Create a player</h1>
       <div className="side-by-side">
         <div className="column">
           <Code

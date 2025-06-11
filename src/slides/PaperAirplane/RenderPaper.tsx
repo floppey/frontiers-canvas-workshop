@@ -12,7 +12,7 @@ export const RenderPaper: React.FC = () => {
       if (ctx) {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         ctx.fillStyle = "white";
-        // Draw a4 paper
+        // Draw A4 paper
         const canvasAspectRatio = canvas.height / canvas.width;
         const a4AspectRatio = 297 / 210; // A4 paper aspect ratio
 
@@ -38,7 +38,7 @@ export const RenderPaper: React.FC = () => {
 
   return (
     <>
-      <h1>Steg 1: Tegne et A4-ark</h1>
+      <h1>Step 1: Draw an A4 sheet</h1>
       <div className="side-by-side">
         <div className="column">
           <canvas ref={canvasRef} width="400" height="400"></canvas>

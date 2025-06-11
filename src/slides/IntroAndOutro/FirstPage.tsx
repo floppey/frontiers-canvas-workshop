@@ -1,19 +1,21 @@
 export const FirstPage: React.FC = () => {
   return (
     <>
-      <h1>Hvordan et papirfly ble til et plattformspill</h1>
+      <h1>How a paper airplane became a platform game</h1>
 
-      <h2>En reise i verden av HTML Canvas med Johannes Grimstad Giske</h2>
+      <p>
+        A journey into the world of HTML Canvas with Johannes Grimstad Giske
+      </p>
       <div style={{ marginTop: "5rem" }}>
-        <span>Lenker</span>
+        <span>Links</span>
 
         <ul style={{ marginTop: "0" }}>
           <li>
             <a
-              href="https://github.com/floppey/plask-2025-canvas"
+              href="https://github.com/floppey/frontiers-canvas-workshop"
               target="_blank"
             >
-              Kildekode til presentasjonen
+              Source code for the presentation
             </a>
           </li>
           <li>

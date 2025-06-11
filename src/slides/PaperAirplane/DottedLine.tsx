@@ -13,7 +13,7 @@ export const DottedLine: React.FC = () => {
       if (ctx) {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
         ctx.fillStyle = "white";
-        // Draw a4 paper
+        // Draw A4 paper
         const canvasAspectRatio = canvas.height / canvas.width;
         const a4AspectRatio = 297 / 210; // A4 paper aspect ratio
 
@@ -72,7 +72,7 @@ export const DottedLine: React.FC = () => {
 
   return (
     <>
-      <h1>Brettekant</h1>
+      <h1>Dotted edge</h1>
       <div className="side-by-side">
         <div className="column">
           <canvas ref={canvasRef} width="600" height="400"></canvas>

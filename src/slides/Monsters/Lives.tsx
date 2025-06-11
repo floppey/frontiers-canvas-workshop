@@ -326,7 +326,7 @@ export const Lives: React.FC = () => {
 
   return (
     <>
-      <h1>Liv ❤️</h1>
+      <h1>Lives</h1>
       <div className="side-by-side">
         <div className="column">
           <canvas ref={canvasRef} width="600" height="400"></canvas>

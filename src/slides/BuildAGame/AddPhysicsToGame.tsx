@@ -136,7 +136,7 @@ export const AddPhysicsToGame: React.FC = () => {
 
   return (
     <>
-      <h1>Legg til fysikk i spillet</h1>
+      <h1>Add physics to the game</h1>
       <div className="side-by-side">
         <div className="column">
           <canvas ref={canvasRef} width="600" height="400"></canvas>
