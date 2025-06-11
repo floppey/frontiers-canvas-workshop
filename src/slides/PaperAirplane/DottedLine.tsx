@@ -72,7 +72,7 @@ export const DottedLine: React.FC = () => {
 
   return (
     <>
-      <h1>Dotted edge</h1>
+      <h1>Dotted line</h1>
       <div className="side-by-side">
         <div className="column">
           <canvas ref={canvasRef} width="600" height="400"></canvas>
@@ -81,6 +81,8 @@ export const DottedLine: React.FC = () => {
           <Code
             fontSize="small"
             code={`
+const canvas = document.getElementById('canvas');
+const ctx = canvas.getContext('2d');
 let frame = 0;
 
 const drawDottedLine = async () => {

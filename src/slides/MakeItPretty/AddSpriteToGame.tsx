@@ -228,7 +228,7 @@ export const AddSpriteToGame: React.FC = () => {
 
   return (
     <>
-      <h1>Animer spilleren</h1>
+      <h1>Add sprite to game</h1>
       <div className="side-by-side">
         <div className="column">
           <canvas ref={canvasRef} width="600" height="400"></canvas>

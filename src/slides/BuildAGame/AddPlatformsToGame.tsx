@@ -177,7 +177,7 @@ export const AddPlatformsToGame: React.FC = () => {
 
   return (
     <>
-      <h1>Legg til plattformer i spillet</h1>
+      <h1>Add platforms to the game</h1>
       <div className="side-by-side">
         <div className="column">
           <canvas ref={canvasRef} width="600" height="400"></canvas>

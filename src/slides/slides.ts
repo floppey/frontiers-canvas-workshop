@@ -30,10 +30,8 @@ import { KillMonster } from "./Monsters/KillMonster";
 import { Lives } from "./Monsters/Lives";
 import { Invulnerability } from "./Monsters/Invulnerability";
 import { Death } from "./Monsters/Death";
-import { Playground } from "./Playground/Playground";
 
 const slideArray = [
-  Playground,
   FirstPage,
   AboutMe,
   Introduction,

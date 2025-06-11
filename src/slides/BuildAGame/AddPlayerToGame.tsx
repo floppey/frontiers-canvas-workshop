@@ -65,7 +65,7 @@ export const AddPlayerToGame: React.FC = () => {
 
   return (
     <>
-      <h1>Legg til spiller i spillet</h1>
+      <h1>Add player to the game</h1>
       <div className="side-by-side">
         <div className="column">
           <canvas ref={canvasRef} width="600" height="400"></canvas>

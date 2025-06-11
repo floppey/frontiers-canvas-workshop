@@ -3,7 +3,7 @@ import { Code } from "../../components/Code";
 export const CollisionDetection: React.FC = () => {
   return (
     <>
-      <h1>Kollisjonsdetektering</h1>
+      <h1>Collision detection</h1>
       <div className="side-by-side">
         <div className="column">
           <Code
